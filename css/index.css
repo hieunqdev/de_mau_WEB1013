@@ -1,0 +1,155 @@
+/* reset: căn lề ngoài, căn lề trong 0px */
+*{
+    margin: 0;
+    padding: 0;
+    /* kiểu chữ Arial */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* chiều rộng 1000px, căn lề ngoài tự động */
+#container{
+    width: 1000px;
+    margin: auto;
+}
+
+/* header */
+header>p>img{
+    width: 100%;
+}
+
+/* nav */
+nav{
+    background-color: #14294b;
+    margin-top: -5px;
+}
+
+nav>ul{
+    /* bỏ dấu chấm trước danh sách */
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav>ul>li{
+    /* các items sẽ được xếp cùng nhau trên một dòng */
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav>ul>li>a{
+    color: white;
+    /* bỏ gạch chân thẻ a */
+    text-decoration: none;
+}
+
+/* banner */
+.banner{
+    margin-top: 5px;
+}
+
+.banner>p>img{
+    width: 100%;
+}
+
+/* search */
+.search{
+    background-color: #14294b;
+}
+
+.search>form{
+    margin-left: 30px;
+    padding: 15px 0;
+}
+
+.search>form>input{
+    width: 80%;
+    height: 25px;
+    padding-left: 10px;
+}
+
+.search>form>button{
+    padding: 6px 20px;
+    margin-left: 30px;
+    background-color: #ef660f;
+    color: white;
+    border: 1px solid white;
+}
+
+/* article */
+article{
+    margin-top: 20px;
+}
+
+.khuyen-mai>h3{
+    text-align: center;
+    color: #6b5902;
+}
+
+.column{
+    /* giúp sắp xếp, bố cục các thành phần khối (block) một cách dễ dàng, linh hoạt */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.san-pham{
+    border: 1px solid black;
+    padding: 30px 15px;
+}
+
+.ten{
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.gia{
+    line-height: 1.7;
+}
+
+.gia>p{
+    font-weight: bold;
+    color: red;
+    font-size: 23px;
+}
+
+.tin-tuc>h3{
+    text-align: center;
+    color: #6b5902;
+    margin: 15px 0;
+}
+
+.noi-dung-tin-tuc{
+    border: 1px solid black;
+    display: flex;
+    padding: 20px;
+}
+
+.anh-tin-tuc>p>img{
+    width: 430px;
+}
+
+.noi-dung-chinh{
+    margin-left: 30px;
+    line-height: 1.5;
+}
+
+.noi-dung-chinh>h4{
+    color: orange;
+    font-size: 23px;
+}
+
+.noi-dung-chinh>p{
+    font-size: 23px;
+}
+
+footer{
+    background-color: #14294b;
+}
+
+footer>p{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
