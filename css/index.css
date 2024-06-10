@@ -1,12 +1,10 @@
-/* reset: căn lề ngoài, căn lề trong 0px */
+/* reset  */
 *{
     margin: 0;
     padding: 0;
-    /* kiểu chữ Arial */
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* chiều rộng 1000px, căn lề ngoài tự động */
 #container{
     width: 1000px;
     margin: auto;
@@ -19,26 +17,26 @@ header>p>img{
 
 /* nav */
 nav{
-    background-color: #14294b;
+    background-color: blue;
     margin-top: -5px;
 }
 
 nav>ul{
-    /* bỏ dấu chấm trước danh sách */
+    /* bỏ dấu chấm trong thẻ ul li */
     list-style: none;
     margin-left: 30px;
 }
 
 nav>ul>li{
-    /* các items sẽ được xếp cùng nhau trên một dòng */
+    /* các items sẽ được sắp xếp trên cùng 1 dòng */
     display: inline-block;
     margin: 10px 20px;
 }
 
 nav>ul>li>a{
-    color: white;
     /* bỏ gạch chân thẻ a */
     text-decoration: none;
+    color: white;
 }
 
 /* banner */
@@ -52,12 +50,12 @@ nav>ul>li>a{
 
 /* search */
 .search{
-    background-color: #14294b;
+    background-color: blue;
 }
 
 .search>form{
-    margin-left: 30px;
     padding: 15px 0;
+    margin-left: 30px;
 }
 
 .search>form>input{
@@ -67,11 +65,12 @@ nav>ul>li>a{
 }
 
 .search>form>button{
+    background-color: orange;
+    color: white;
+    /* khung viền */
+    border: 1px solid white;
     padding: 6px 20px;
     margin-left: 30px;
-    background-color: #ef660f;
-    color: white;
-    border: 1px solid white;
 }
 
 /* article */
@@ -81,11 +80,12 @@ article{
 
 .khuyen-mai>h3{
     text-align: center;
-    color: #6b5902;
+    color: yellowgreen;
 }
 
 .column{
-    /* giúp sắp xếp, bố cục các thành phần khối (block) một cách dễ dàng, linh hoạt */
+    /* sắp xếp bố cục các thành phần 1 cách dễ dàng, linh hoạt */
+    /* float: left; */
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -98,31 +98,36 @@ article{
 }
 
 .ten{
+    /* in đậm */
     font-weight: bold;
     padding-bottom: 30px;
     font-size: 18px;
 }
 
 .gia{
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
 .gia>p{
-    font-weight: bold;
     color: red;
     font-size: 23px;
+    font-weight: bold;
+}
+
+.tin-tuc{
+    margin: 20px 0;
 }
 
 .tin-tuc>h3{
     text-align: center;
-    color: #6b5902;
-    margin: 15px 0;
+    color: yellowgreen;
 }
 
 .noi-dung-tin-tuc{
     border: 1px solid black;
     display: flex;
     padding: 20px;
+    margin-top: 15px;
 }
 
 .anh-tin-tuc>p>img{
@@ -135,21 +140,13 @@ article{
 }
 
 .noi-dung-chinh>h4{
-    color: orange;
-    font-size: 23px;
-}
-
-.noi-dung-chinh>p{
+    color: brown;
     font-size: 23px;
 }
 
 footer{
-    background-color: #14294b;
-}
-
-footer>p{
-    font-weight: bold;
+    background-color: blue;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
