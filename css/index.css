@@ -17,7 +17,7 @@ header>p>img{
 
 /* nav */
 nav{
-    background-color: blue;
+    background-color: #14294b;
     margin-top: -5px;
 }
 
@@ -50,7 +50,7 @@ nav>ul>li>a{
 
 /* search */
 .search{
-    background-color: blue;
+    background-color: #14294b;
 }
 
 .search>form{
@@ -65,7 +65,7 @@ nav>ul>li>a{
 }
 
 .search>form>button{
-    background-color: orange;
+    background-color: #ef660f;
     color: white;
     /* khung viền */
     border: 1px solid white;
@@ -80,7 +80,7 @@ article{
 
 .khuyen-mai>h3{
     text-align: center;
-    color: yellowgreen;
+    color: #6b5902;
 }
 
 .column{
@@ -109,7 +109,7 @@ article{
 }
 
 .gia>p{
-    color: red;
+    color: #c9292f;
     font-size: 23px;
     font-weight: bold;
 }
@@ -120,7 +120,7 @@ article{
 
 .tin-tuc>h3{
     text-align: center;
-    color: yellowgreen;
+    color: #6b5902;
 }
 
 .noi-dung-tin-tuc{
@@ -145,7 +145,7 @@ article{
 }
 
 footer{
-    background-color: blue;
+    background-color: #14294b;
     color: white;
     text-align: center;
     padding: 20px;
